@@ -2,7 +2,7 @@
     "version":2,
     "name":"petgram-nadia",
     "builds":[
-        {"use":"@now/static-build",
+        {"use":"@vercel/static-build",
         "src":"package.json"}
     ],
     "routes":[
